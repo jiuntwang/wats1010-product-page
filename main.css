@@ -1,8 +1,75 @@
 /* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
+/* Created by Jiun Wang 2016 for WATS3010 Assignment */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+
+/* 
+01  basic elements
+02  typography       
+03  layout
+04  effects
+*/
+
+
+
+/**  01 basic elements
+****************************************************************/
+/* @media screen and (min-width: 480px) {
+  body {
+    background-color: blue;
+  }
 }
+ */
+
+
+/**  02 typography
+****************************************************************/
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+}
+
+/**  03 layout
+****************************************************************/
+header {
+  text-align: center;
+  background-image: url('../design/cover-1.jpg');
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: 50% 50px;
+  background-size: cover;
+}
+
+nav {
+  margin: 0 300px 0 300px;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+.searchbar {
+   z-index: 1;
+   
+}
+.searchbar input {
+   height: 35px;
+   width: 1100px;
+}
+
+
+/** 04 effects
+****************************************************************/
