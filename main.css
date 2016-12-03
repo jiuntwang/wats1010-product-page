@@ -47,13 +47,12 @@ nav {
 ****************************************************************/
 header {
     text-align: center;
-    background-image: url('design/cover-1.jpg');
+/*     background-image: url('design/cover-1.jpg');
     min-height: 650px;
     background-repeat: no-repeat;
     background-position: 50% 80px;
-    background-size: cover;
+    background-size: cover; */
 }
-
 nav {
     height: 80px;
 }
@@ -74,7 +73,7 @@ nav {
     padding-top: 35px;
 }
 .nav a {
-    color: darkblue;
+    color: navy;
 }
 .btn  {
     border-color: whitesmoke;
@@ -83,13 +82,13 @@ nav {
     background: yellowgreen;
 }
 .btn-info:hover {
-    background: darkblue;
+    background: navy;
     border-color: whitesmoke;
 }
 .nav-pills li.active a,
 .nav-pills li.active a:hover,
 .nav-pills li.active a:focus {
-    background-color: darkblue;
+    background-color: navy;
     color: white;
 }
 .no-padding {
@@ -102,24 +101,21 @@ nav {
 .searchbar input {
     height: 45px;
     width: 1000px;
-    border: 2px solid darkblue;
+    border: 2px solid navy;
 }
 form {
     display: block;
     padding-bottom: 30px;
 }
-.top-buffer,
-#testimonials {
+.top-buffer {
     margin-top: 30px;
 }
 #APIvideo {
-    background-color: darkblue;
-    padding-bottom: 25px;
+    background-color: navy;
+    padding-bottom: 35px;
 }
 #testimonials {
-    margin-top: 25px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 55px 150px 55px 150px;
 }
 #testimonials .media {
     padding: 20px;
@@ -129,11 +125,22 @@ footer {
     height: 300px;
     width: 100%;
     color: white;
-    background-color: darkblue;
-    padding: 50px 300px 0px 300px;
+    background-color: navy;
 
+}
+footer .container {
+    padding-top: 50px;
 }
 
 
 /** 04 misc
 ****************************************************************/
+
+.carousel-inner .item img,
+.carousel-inner .item a img {
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    margin: 0;
+    padding: 0;
+  }
