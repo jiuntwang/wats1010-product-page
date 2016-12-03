@@ -6,7 +6,7 @@
 01  basic elements
 02  typography       
 03  layout
-04  effects
+04  misc
 */
 
 
@@ -34,23 +34,63 @@ h6 {
     font-weight: 700;
 }
 
-p {
+p,
+footer {
     font-size: 20px;
 }
+nav {
+    font-size: 20px;
+}
+
 
 /**  03 layout
 ****************************************************************/
 header {
     text-align: center;
     background-image: url('design/cover-1.jpg');
-    min-height: 550px;
+    min-height: 650px;
     background-repeat: no-repeat;
-    background-position: 50% 50px;
+    background-position: 50% 80px;
     background-size: cover;
 }
 
 nav {
-    margin: 0 300px 0 300px;
+    height: 80px;
+}
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    margin-bottom: 50px;
+}
+.navbar li {
+    color: #000;
+}
+.navbar-brand img {
+    width: 400px;
+}
+.nav {
+    padding-top: 35px;
+}
+.nav a {
+    color: darkblue;
+}
+.btn  {
+    border-color: whitesmoke;
+}
+.btn-info {
+    background: yellowgreen;
+}
+.btn-info:hover {
+    background: darkblue;
+    border-color: whitesmoke;
+}
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:focus {
+    background-color: darkblue;
+    color: white;
 }
 .no-padding {
     padding-left: 0;
@@ -60,15 +100,20 @@ nav {
     z-index: 1;
 }
 .searchbar input {
-    height: 35px;
-    width: 1100px;
+    height: 45px;
+    width: 1000px;
+    border: 2px solid darkblue;
+}
+form {
+    display: block;
+    padding-bottom: 30px;
 }
 .top-buffer,
 #testimonials {
     margin-top: 30px;
 }
 #APIvideo {
-    background-color: skyblue;
+    background-color: darkblue;
     padding-bottom: 25px;
 }
 #testimonials {
@@ -80,10 +125,15 @@ nav {
     padding: 20px;
 }
 footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
     color: white;
-    background-color: dimgray;
-    padding: 50px 250px 50px 250px;
+    background-color: darkblue;
+    padding: 50px 300px 0px 300px;
+
 }
 
-/** 04 effects
+
+/** 04 misc
 ****************************************************************/
